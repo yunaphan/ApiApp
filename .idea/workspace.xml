@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/urbangreen/static/js/custom.js" line="5" mnemonic="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aa6778d-45cc-49fb-a4e0-aeef780245d4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urbangreen/templates/login/resigner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urbangreen/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1771">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4186">
+              <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urbangreen/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urbangreen/static/js/map1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="296" column="22" lean-forward="true" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>authentication</find>
+      <find>connections</find>
+      <find>check_dangnhap</find>
+      <find>AccountsSys</find>
+      <find>password</find>
+      <find>username</find>
+      <find>ajax</find>
+      <find>lon</find>
+      <find>long</find>
+      <find>django.contrib.sessions</find>
+      <find>value</find>
+      <find>uname</find>
+      <find>script</find>
+      <find>Trang</find>
+      <find>DuongKinh</find>
+      <find>ChieuCao</find>
+      <find>DoRongTan</find>
+      <find>thuocTinh</find>
+      <find>lat</find>
+      <find>NVKS_X</find>
+      <find>TuyenDuong</find>
+      <find>http://127.0.0.1:8000/ubg/themcayxanh/</find>
+      <find>themcay</find>
+      <find>sohieu</find>
+      <find>style</find>
+      <find>td</find>
+      <find>searchqh</find>
+      <find>ubg</find>
+      <find>searchlayer</find>
+      <find>searchValue</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/urbangreen/urbanmodels/ModelForm/modelTest.py" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/modelsform/form1.html" />
+        <option value="$PROJECT_DIR$/urbangreen/static/css/startmin.css" />
+        <option value="$PROJECT_DIR$/urbangreen/urbanmodels/Md_LoaiCX.py" />
+        <option value="$PROJECT_DIR$/urbangreen/form/form.py" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/custom.js" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/Content_ThemCayXanh.html" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/map2.js" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/test.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/ThemCayXanh.py" />
+        <option value="$PROJECT_DIR$/urbangreen/models.py" />
+        <option value="$PROJECT_DIR$/urbangreen/forms/add_new_tree_form.py" />
+        <option value="$PROJECT_DIR$/urbangreen/models/CayXanh_Model.py" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/nav1.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/frames/head.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/frames/nav1.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/login/resigner.html" />
+        <option value="$PROJECT_DIR$/urbangreen/models/TenCayXanh_model.py" />
+        <option value="$PROJECT_DIR$/urbangreen/static/css/style.css" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/modelsform/form1.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/login/check.py" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/login/test.html" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/ajax.js" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/urbangreen/Controller/login.py" />
+        <option value="$PROJECT_DIR$/urbangreenery/settings.py" />
+        <option value="$PROJECT_DIR$/login/urls.py" />
+        <option value="$PROJECT_DIR$/urbangreenery/urls.py" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/app.html" />
+        <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/login/templates/login.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/ThemCayXanh.html" />
+        <option value="$PROJECT_DIR$/urbangreen/Controller/themcayxanh.py" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/themcay.js" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/Form_search.html" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/Search/traCuu.html" />
+        <option value="$PROJECT_DIR$/login/templates/profile.html" />
+        <option value="$PROJECT_DIR$/urbangreen/forms/them_ten.html" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/themtencay.js" />
+        <option value="$PROJECT_DIR$/urbangreen/Controller/TC_quanhuyen.py" />
+        <option value="$PROJECT_DIR$/login/templates/myprofile.html" />
+        <option value="$PROJECT_DIR$/urbangreen/Controller/myprofile.py" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/profile/myProfile.html" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/openPopup.js" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/index.html" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/searchQH.ts" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/searchQH.js" />
+        <option value="$PROJECT_DIR$/urbangreen/urls.py" />
+        <option value="$PROJECT_DIR$/urbangreen/views.py" />
+        <option value="$PROJECT_DIR$/urbangreen/static/js/map1.js" />
+        <option value="$PROJECT_DIR$/urbangreen/templates/pages/nav.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="175" />
+    <option name="y" value="74" />
+    <option name="width" value="1260" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="urbangreenery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbangreenery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbangreenery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbangreenery" type="462c0819:PsiDirectoryNode" />
+              <item name="urbangreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbangreenery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbangreenery" type="462c0819:PsiDirectoryNode" />
+              <item name="urbangreen" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbangreenery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbangreenery" type="462c0819:PsiDirectoryNode" />
+              <item name="urbangreen" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbangreenery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbangreenery" type="462c0819:PsiDirectoryNode" />
+              <item name="urbangreen" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbangreenery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urbangreenery" type="462c0819:PsiDirectoryNode" />
+              <item name="urbangreen" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2018.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\urbangreenery\urbangreen\templates\pages\frames" />
+      <recent name="D:\urbangreenery\urbangreen\templates\pages" />
+      <recent name="D:\urbangreenery\urbangreen\static\images\icon" />
+      <recent name="D:\urbangreenery\urbangreen\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="urbangreenery" type="Python.DjangoServer" factoryName="Django server">
+      <module name="urbangreenery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="urbangreenery.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aa6778d-45cc-49fb-a4e0-aeef780245d4" name="Default Changelist" comment="" />
+      <created>1548664897610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548664897610</updated>
+      <workItem from="1548664898847" duration="50000" />
+      <workItem from="1548664950255" duration="41000" />
+      <workItem from="1548664991811" duration="29000" />
+      <workItem from="1548665109850" duration="1680000" />
+      <workItem from="1548687426242" duration="303000" />
+      <workItem from="1548808405967" duration="199000" />
+      <workItem from="1548809192924" duration="261000" />
+      <workItem from="1548809481580" duration="218000" />
+      <workItem from="1548809728474" duration="1791000" />
+      <workItem from="1548812294541" duration="18427000" />
+      <workItem from="1549153733716" duration="1284000" />
+      <workItem from="1550123809744" duration="478000" />
+      <workItem from="1550134636460" duration="255000" />
+      <workItem from="1550134959714" duration="2211000" />
+      <workItem from="1550147080600" duration="2152000" />
+      <workItem from="1550218216139" duration="5751000" />
+      <workItem from="1550313251445" duration="2827000" />
+      <workItem from="1550625897759" duration="1691000" />
+      <workItem from="1550652114850" duration="9720000" />
+      <workItem from="1550708204997" duration="4197000" />
+      <workItem from="1550753947030" duration="2163000" />
+      <workItem from="1550807110344" duration="601000" />
+      <workItem from="1550900337730" duration="3835000" />
+      <workItem from="1550911212631" duration="2480000" />
+      <workItem from="1550936382463" duration="908000" />
+      <workItem from="1551015583621" duration="2433000" />
+      <workItem from="1551080676493" duration="9569000" />
+      <workItem from="1551254509890" duration="6629000" />
+      <workItem from="1551333119809" duration="11644000" />
+      <workItem from="1551440305636" duration="7775000" />
+      <workItem from="1551457249243" duration="5742000" />
+      <workItem from="1551538463630" duration="2559000" />
+      <workItem from="1551599549228" duration="9877000" />
+      <workItem from="1551661590547" duration="22066000" />
+      <workItem from="1551704322131" duration="6735000" />
+      <workItem from="1551745885112" duration="4236000" />
+      <workItem from="1551772933659" duration="5541000" />
+      <workItem from="1551778610616" duration="2286000" />
+      <workItem from="1551832543040" duration="20500000" />
+      <workItem from="1551963637959" duration="831000" />
+      <workItem from="1552176905314" duration="773000" />
+      <workItem from="1552314006401" duration="3475000" />
+      <workItem from="1552364805964" duration="2414000" />
+      <workItem from="1552380974209" duration="3720000" />
+      <workItem from="1552384740334" duration="3723000" />
+      <workItem from="1552568418633" duration="3779000" />
+      <workItem from="1552614950040" duration="2921000" />
+      <workItem from="1552654648429" duration="5532000" />
+      <workItem from="1552748608538" duration="2523000" />
+      <workItem from="1552792610127" duration="10121000" />
+      <workItem from="1552807920990" duration="3059000" />
+      <workItem from="1552877814602" duration="8061000" />
+      <workItem from="1552893897564" duration="4147000" />
+      <workItem from="1552921413070" duration="3831000" />
+      <workItem from="1552982029023" duration="624000" />
+      <workItem from="1553004014817" duration="12469000" />
+      <workItem from="1553057575165" duration="8571000" />
+      <workItem from="1553135617918" duration="6340000" />
+      <workItem from="1553174722690" duration="5619000" />
+      <workItem from="1553228906055" duration="876000" />
+      <workItem from="1553265587987" duration="1334000" />
+      <workItem from="1553304193660" duration="8287000" />
+      <workItem from="1553319687327" duration="1910000" />
+      <workItem from="1553345510549" duration="5217000" />
+      <workItem from="1553354708016" duration="1928000" />
+      <workItem from="1553392327243" duration="6885000" />
+      <workItem from="1553412870143" duration="8692000" />
+      <workItem from="1553504719666" duration="1370000" />
+      <workItem from="1553528533365" duration="87000" />
+      <workItem from="1553688994534" duration="2115000" />
+      <workItem from="1553738393634" duration="1921000" />
+      <workItem from="1553919767635" duration="1467000" />
+      <workItem from="1553936331862" duration="5830000" />
+      <workItem from="1553952445466" duration="3694000" />
+      <workItem from="1554041657017" duration="5643000" />
+      <workItem from="1554050015253" duration="188000" />
+      <workItem from="1554078938663" duration="29645000" />
+      <workItem from="1554129587224" duration="7133000" />
+      <workItem from="1554165117239" duration="3390000" />
+      <workItem from="1554168535235" duration="7850000" />
+      <workItem from="1554190953432" duration="7398000" />
+      <workItem from="1554253681813" duration="3061000" />
+      <workItem from="1554288810007" duration="8960000" />
+      <workItem from="1554351986557" duration="14533000" />
+      <workItem from="1554388377370" duration="937000" />
+      <workItem from="1554393911736" duration="251000" />
+      <workItem from="1554396114391" duration="5325000" />
+      <workItem from="1554439206276" duration="8350000" />
+      <workItem from="1554448973644" duration="2284000" />
+      <workItem from="1554479356544" duration="3317000" />
+      <workItem from="1554524416117" duration="10213000" />
+      <workItem from="1554553467902" duration="5660000" />
+      <workItem from="1554565284489" duration="419000" />
+      <workItem from="1554635140862" duration="805000" />
+      <workItem from="1554636388366" duration="11004000" />
+      <workItem from="1554648994879" duration="361000" />
+      <workItem from="1554651117108" duration="3811000" />
+      <workItem from="1554697302812" duration="8511000" />
+      <workItem from="1554722793805" duration="4100000" />
+      <workItem from="1554794537248" duration="266000" />
+      <workItem from="1554819841686" duration="1941000" />
+      <workItem from="1554875187203" duration="4943000" />
+      <workItem from="1554901803842" duration="6167000" />
+      <workItem from="1554954635793" duration="13621000" />
+      <workItem from="1554984998402" duration="8938000" />
+      <workItem from="1555039316429" duration="5612000" />
+      <workItem from="1555075118908" duration="334000" />
+      <workItem from="1555211509809" duration="5659000" />
+      <workItem from="1555232031464" duration="6421000" />
+      <workItem from="1555421813682" duration="4034000" />
+      <workItem from="1555479010276" duration="4941000" />
+      <workItem from="1555518738079" duration="250000" />
+      <workItem from="1555554888476" duration="596000" />
+      <workItem from="1555584957208" duration="5151000" />
+      <workItem from="1555609869575" duration="1488000" />
+      <workItem from="1555634957258" duration="677000" />
+      <workItem from="1555733082136" duration="4742000" />
+      <workItem from="1555761835704" duration="13392000" />
+      <workItem from="1555781662624" duration="3527000" />
+      <workItem from="1555851434273" duration="7291000" />
+      <workItem from="1555870395874" duration="867000" />
+      <workItem from="1555909507807" duration="6522000" />
+      <workItem from="1555925253653" duration="1777000" />
+      <workItem from="1555946574736" duration="600000" />
+      <workItem from="1555993874276" duration="12769000" />
+      <workItem from="1556036925411" duration="4745000" />
+      <workItem from="1556081170371" duration="3257000" />
+      <workItem from="1556195087110" duration="1946000" />
+      <workItem from="1556203487525" duration="696000" />
+      <workItem from="1556475804834" duration="1381000" />
+      <workItem from="1557399401107" duration="807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="613797000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21255673" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7965812" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Structure" order="9" weight="0.24957265" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50378215" side_tool="true" weight="0.1965812" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49621785" visible="true" weight="0.25470087" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20347957" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7965812" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Structure" order="9" weight="0.24957265" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50378215" side_tool="true" weight="0.1965812" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49621785" visible="true" weight="0.25470087" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Program Files (x86)/Python37-32/Lib/site-packages/django/contrib/auth/models.py</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/ThemCayXanh.py" />
+    <entry file="file://$PROJECT_DIR$/urbangreen/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/models/QuanHuyen_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/models/Tencx.py" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/frames/nav1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2093">
+          <caret line="91" column="36" lean-forward="true" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/models/CayXanh_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="e#468#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/models/TenCayXanh_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8372">
+          <caret line="374" column="7" selection-start-line="374" selection-start-column="7" selection-end-line="374" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/login/check.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/ajax.js" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/django/db/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/login/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/Controller/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreenery/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="87" column="36" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreenery/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/test.html" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="138" column="14" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="138" selection-end-column="14" />
+          <folding>
+            <element signature="e#3353#3739#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/themcay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/frames/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/modelsform/form1.html" />
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/Search/traCuu.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/profile.html" />
+    <entry file="file://$PROJECT_DIR$/urbangreen/forms/add_new_tree_form.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/forms/them_ten.html" />
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/themtencay.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/Controller/TC_quanhuyen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/myprofile.html" />
+    <entry file="file://$PROJECT_DIR$/urbangreen/Controller/myprofile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/profile/myProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/ThemCayXanh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/Controller/themcayxanh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/searchQH.ts" />
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/searchQH.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="47" selection-end-line="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/openPopup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/Form_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/login/resigner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4186">
+          <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/templates/pages/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbangreen/static/js/map1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="296" column="22" lean-forward="true" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+
+    {% load staticfiles %}
+
+    {#    Define css#}
+    {#    <link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css"/>#}
+    <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/metisMenu.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/timeline.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/startmin.css' %}"/>
+    {#    <link rel="stylesheet" type="text/css" href="{% static 'css/morris.css' %}"/>#}
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+
+</head>
+<body>
+{% block top-header %}
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+{% block research %}
+{% endblock %}
+
+{% block form %}
+{% endblock %}
+{#  Define Script#}
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="{% static 'js/metisMenu.min.js' %}"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="{% static 'js/raphael.min.js' %}"></script>
+{#    <script src="{% static 'js/morris.min.js' %}"></script>#}
+{#    <script src="{% static 'js/morris-data.js' %}"></script>#}
+
+<!-- Custom Theme JavaScript -->
+<script src="{% static 'js/startmin.js' %}"></script>
+{#    <script src="https://js.arcgis.com/4.10/esri/widgets/Editor.js"></script>#}
+<script src="https://js.arcgis.com/4.10/"></script>
+<script>
+    var BASE_URL = window.location.href;
+    var map_url = 'https://tilis.vbgis.vn';
+</script>
+<script src="{% static 'js/map1.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>

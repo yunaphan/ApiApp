@@ -1,0 +1,104 @@
+{#<div id="wrapper">#}
+{#    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">#}
+<div class="sidebar-nav navbar-collapse">
+    {# ==================== This is main menu#}
+    <ul class="nav nav-multilv active nav-lv1" id="side-menu">
+
+        <li>
+            <a href="#" class="disableRedirect; active"><i class="fa fa-database"></i> Thêm Cây Xanh</a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-search"></i> Tra cứu<span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <button data-toggle="modal" data-target="#myModal">Tra cứu theo tuyến đường</button>
+                </li>
+                <li>
+                    <button class="btn-lv2">Tra cứu quận huyện</button>
+                </li>
+                <li>
+                    <button>Tra cứu theo tên</button>
+                </li>
+                <li>
+                    <button>Tra cứu theo số hiệu</button>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Quản lí, Giám Sát<span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <button>Giám sát công tác cắt tỉa</button>
+                </li>
+                <li>
+                    <button>Giám sát công tác chặt hạ</button>
+                </li>
+                <li>
+                    <button>Giám sát công tác di dời</button>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <a href="#"><i class="esri-icon-chart"></i> Thống Kê Báo Cáo<span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <button>Thống kê theo tên cây xanh</button>
+                </li>
+                <li>
+                    <button>Thống kê theo tuyến đường</button>
+                </li>
+                <li>
+                    <button>Thống kê theo quận huyện</button>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#"><i class="esri-icon-layer-list"></i> Lập lịch chăm sóc<span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <button>Lập Lịch tưới cho tuần</button>
+                </li>
+                <li>
+                    <button>Lập Lịch Theo Tháng</button>
+
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="active"><i class="fa fa-user"></i> Quản Lí Người Dùng</a>
+        </li>
+
+    </ul>
+
+    <ul class="nav nav-multilv nav-lv2">
+        <li><a href="#"><i class="esri-icon-left-arrow"></i> Tra cứu theo quận huyện</a></li>
+        <li>
+            <div class="dropdown dropdown1">
+                <button class="btn btn-primary dropdown-toggle dropdown-toggle1 " type="button" data-toggle="dropdown">
+                    Chọn Quận Huyện
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu1">
+                    <li><a href="#">Ninh kieu</a></li>
+                    <li><a href="#">3/2</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="table-search-result">
+            <table class="table-tree">
+                <tr>
+                    <th>ID</th>
+                    <th>Số Hiệu</th>
+                </tr>
+            </table>
+        </li>
+    </ul>
+</div>
+<style>
+    .navbar-collapse {
+        padding-top: 52px;
+    }
+</style>
+{#    </nav>#}
+{#</div>#}

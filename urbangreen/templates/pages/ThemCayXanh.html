@@ -1,0 +1,215 @@
+{% extends 'pages/app.html' %}
+{% block title %}Thêm Cây Xanh{% endblock %}
+{% block top-header %}
+    {% include "pages/nav.html" %}
+{% endblock %}
+{% block content %}
+    <div class="container-fluid" style="margin-top: 51px;background-color: #8cc0f917; padding-bottom: 70px">
+        <div class="content-header">
+            <h1 align="center" style="font-family: 'Times New Roman', Times, serif;">Thêm Cây Mới</h1>
+        </div>
+        <div class="content-form">
+            <form method="post" name="NewTreeForm">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-md-6">
+                        <input style="display:none" id="objectID" name="objectID" class="form-control">
+                        <div class="form-group" style="border: none">
+                            <div class="col-md-3"><label for="SoHieu" class="control-lable">Số Hiệu: <span
+                                    style="color: red">*</span></label></div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="SoHieu" id="SoHieu">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="TenCX" class="control-lable">Tên Cây Xanh:</label></div>
+                            <div class="col-md-9">
+                                <select class="form-control" id="TenCX" name="TenCX">
+                                    {% for ten in tencayxanh %}
+                                        <option value="{{ ten.1 }}"> {{ ten.0 }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="NgayTrong" class="control-lable ">Ngày Trồng:</label>
+                            </div>
+                            <div class="col-md-9"><input type="datetime-local" value="" id="NgayTrong" name="NgayTrong"
+                                                         class="form-control"></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="NgayCapNhat" class="control-lable ">Ngày Cập Nhật:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="datetime-local" value="" id="NgayCapNhat" name="NgayCapNhat"
+                                       class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="ThuocTinh" class="control-lable ">Thuộc Tính:</label>
+                            </div>
+                            <div class="col-md-9"><input type="text" value="" id="thuocTinh" name="ThuocTinh"
+                                                         class="form-control"></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="MaTinhTrang" class="control-lable ">Tình Trạng:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-control" id="MaTinhTrang" name="MaTinhTrang">
+                                    {% for tt in tinhtrang %}
+                                        <option value="{{ tt.0 }}">{{ tt.1 }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="TuyenDuong" class="control-lable ">Tuyến Đường:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" value="" id="TuyenDuong" name="TuyenDuong"
+                                       class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3"><label for="GhiChu" class="control-lable ">GhiChu</label></div>
+                            <div class="col-md-9">
+                                <input type="Text" name="GhiChu" class="form-control" id="GhiChu">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="KinhDo" class="control-lable">Kinh Độ:</label></div>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" value="{{ long }}"  disabled>
+                                    <input type="hidden" name="KinhDo" class="form-control" value="{{ long }}" id="long">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="KinhDo" class="control-lable ">Vĩ Độ:</label></div>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" value="{{ lat }}" id="lat" disabled>
+                                    <input type="hidden" name="ViDo" class="form-control" value="{{ lat }}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="DuongKinh" class="control-lable ">Đường Kính:</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="DuongKinh" class="form-control" id="DuongKinh">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="ChieuCao" class="control-lable ">Chiều Cao:</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="ChieuCao" class="form-control" id="ChieuCao">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="DoRongTan" class="control-lable ">Độ Rộng Tán:</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="DoRongTan" class="form-control" id="DoRongTan">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="NVKS_X" class="control-lable">NVKS_X:</label></div>
+                                <div class="col-md-9">
+                                    <input type="text" name="NVKS_X" class="form-control" id="NVKS_X">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="NVKS_Y" class="control-lable ">NVKS_Y:</label></div>
+                                <div class="col-md-9">
+                                    <input type="text" name="NVKS_Y" class="form-control" id="NVKS_Y">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-3"><label for="NguoiCapNhat" class="control-lable ">Người Cập
+                                    Nhật</label></div>
+                                <div class="col-md-9">
+                                    <input type="Text" name="NguoiCapNhat" class="form-control">
+                                </div>
+                            </div>
+                            {#                            <div class="form-group form-inline">#}
+                            {#                                <div class="col-md-3"><label for="TinhTrangTonTai" class="control-lable ">Xóa#}
+                            {#                                    Cây:</label>#}
+                            {#                                </div>#}
+                            {#                                <div class="col-md-9"><select class="form-control">#}
+                            {#                                    <option></option>#}
+                            {#                                    <option>Chưa Xóa</option>#}
+                            {#                                </select></div>#}
+                            {#                            </div>#}
+                        </div>
+                        <div class="button-btn">
+                            <button class="btn btn-them" id="themcay"
+                                    style="border: 1px solid;background-color: #070774;color: #fff;width: min-content;float: right;margin-right: 59%;">
+                                Thêm Cây
+                            </button>
+                            <button class="btn btn-sua" id="sua"
+                                    style="border: 1px solid;background-color: #070774;color: #fff;width: min-content;float: right;margin-right: 5%;">
+                                Sửa Cây
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% load staticfiles %}
+    <style>
+        select {
+            width: 187px;
+            height: 35px;
+            border: 1px solid #9e99996b;
+            border-radius: 3px;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .content-header h1 {
+            color: #05067b;
+            text-transform: uppercase;
+            font-family: Arial, serif;
+            padding-bottom: 25px;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-box-sizing: border-box;
+        }
+
+        .form-control {
+            outline: none;
+            border: none;
+            box-shadow: none;
+            border-bottom: 1px solid #ccc;
+            border-radius: inherit;
+            background-color: #f5f9fe;
+        }
+
+        .button-btn {
+            display: inline
+        }
+    </style>
+    <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/themcay.js' %}"></script>
+
+{% endblock %}
