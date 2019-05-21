@@ -1,7 +1,9 @@
 {% extends "pages/app.html" %}
+{% load staticfiles %}
 {% block title %}This is mapview{% endblock %}
 {% block top-header %}
     {% include "pages/nav.html" %}
+    <script src="{% static 'js/custom.js' %}"></script>
 {% endblock %}
 {% block content %}
     <div id="viewDiv"></div>
