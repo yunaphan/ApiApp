@@ -45,7 +45,7 @@ def them_ten_cay(request):
     tencx = request.POST['tencx']
     them_ten = connections['DoThi'].cursor()
     them_ten.execute("insert into sde.TenCX(MaTenCX, TenCX) values (%s,%s)", [maten, tencx])
-    return redirect('/ubg',success = 'Thêm cây mới thành công!')
+    return redirect('/ubg', success='Thêm cây mới thành công!')
 
 def TC_ten(request):
     refcur = connections['DoThi'].cursor()
@@ -66,15 +66,7 @@ def searchqh(request):
     data['resultqh'] = refcur.fetchall()
     return JsonResponse(data)
 
-def layer(request):
-    data = dict()
-    value = request.GET['value']
-    field = request.GET['field']
-    object = request.GET['object']
-    data['value'] = value
-    data["layer"] = object
-    data["field"] = field
-    return JsonResponse(data)
+
 
 
 

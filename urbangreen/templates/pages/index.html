@@ -7,9 +7,17 @@
 {% endblock %}
 {% block content %}
     <div id="viewDiv"></div>
-{% endblock %}
-{% block research %}
-    {% include "pages/Search/traCuu.html" %}
+
+    <div id="update" class="esri-widget esri-hidden">
+      <div id="formDiv" class="scroller esri-component"></div>
+      <input type="button" class="esri-button" value="Update" id="btnUpdate"/>
+    </div>
+    <div id="create" class="esri-widget esri-hidden">
+      <div id="formDiv" class="scroller esri-component"></div>
+      <input type="button" class="esri-button" value="create" id="btnCreate"/>
+    </div>
+
+    <div id="editorDiv"></div>
 {% endblock %}
 {% block form %}
     <div id="editorDiv"></div>

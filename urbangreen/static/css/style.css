@@ -154,7 +154,7 @@ button:active, button:focus {
     border-color: #eeeeee;
 }
 
-.panel-body{
+.panel-body {
 
     padding-top: 0;
     max-height: 186px;
@@ -197,12 +197,37 @@ button:active, button:focus {
     padding: 8px 15px 3px;
 }
 
-#result-form-search{
+#result-form-search {
     visibility: hidden;
 }
 
 /*=====================*/
-.modal-header{
+.modal-header {
     background-color: #005798;
     color: #fff;
+}
+
+.esri-editor__header {
+    display: none !important;
+
+}
+
+.esri-ui-corner {
+    z-index: 99999;
+    color: #337ab7 !important;
+    padding-top: 36px !important;
+}
+
+#update {
+    padding: 6px;
+}
+
+#form {
+    background: #fff;
+}
+
+/* replaces esri-widget--panel */
+.scroller {
+    overflow-x: hidden;
+    overflow-y: auto;
 }

@@ -41,27 +41,19 @@
                     </li>
                     <li class="divider"></li>
                     <li>
-                        <a class="text-center" href="#">
-                            <strong>See All Alerts</strong>
-                            <i class="fa fa-angle-right"></i>
-                        </a>
+                        <a class="text-center" href="#"><strong>See All Alerts</strong><i class="fa fa-angle-right"></i></a>
                     </li>
                 </ul>
             </li>
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                    <i class="fa fa-user fa-fw"></i>
-                    {{ username }}
-                    <b class="caret"></b>
+                    <i class="fa fa-user fa-fw"></i>{{ username }}<b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
-                    <li><a href="myprofile/"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                    </li>
+                    <li><a href="myprofile/"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
                     <li class="divider"></li>
-                    <li><a href="logout/"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                    </li>
+                    <li><a href="logout/"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
                 </ul>
             </li>
         </ul>
@@ -71,121 +63,49 @@
             <div class="sidebar-nav navbar-collapse">
                 {# ==================== This is main menu#}
                 <ul class="nav nav-multilv active nav-lv1" id="side-menu">
-
                     <li>
-                        <button data-toggle="modal" data-target="#myModal1" style="padding-left: 15px;"><i
-                                class="fa fa-database" style="padding-right: 4px;"></i>Thêm Tên Cây Xanh
-                        </button>
+                        <button class="add_tree" style="padding-left: 15px;"><i class="esri-icon-add-attachment" style="padding-right: 4px;"></i>Cập Nhật Cây Xanh</button>
+                        <button class="close_add_tree" style="display: none; padding-left: 15px;"><i class="esri-icon-close-circled" style="padding-right: 4px;"></i>Đóng cập nhật cây xanh</button>
+                    </li>
+                    <li>
+                        <button data-toggle="modal" data-target="#myModal1" style="padding-left: 15px;"><i class="fa fa-database" style="padding-right: 4px;"></i>Thêm Tên Cây Xanh</button>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-search"></i> Tra cứu<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li>
-                                <button data-toggle="modal" data-target="#myModal">Tra cứu theo tuyến đường</button>
-                            </li>
-                            <li>
-                                <button class="open-button" onclick="openPopup()">Tra cứu quận huyện</button>
-                            </li>
-                            <li>
-                                <button class="open-button" onclick="openPopup()">Tra cứu theo Phường Xã</button>
-                            </li>
+                            <li><button class="search_td">Tra cứu theo tuyến đường</button></li>
+                            <li><button class="close_search" style="display: none">Đóng Tra cứu</button></li>
+                            <li><button class="open-button" onclick="openPopup()">Tra cứu quận huyện</button></li>
+                            <li><button class="open-button" onclick="openPopup()">Tra cứu theo Phường Xã</button></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-sitemap fa-fw"></i> Quản lí, Giám Sát<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li>
-                                <button>Giám sát công tác cắt tỉa</button>
-                            </li>
-                            <li>
-                                <button>Giám sát công tác chặt hạ</button>
-                            </li>
-                            <li>
-                                <button>Giám sát công tác di dời</button>
-                            </li>
-
+                            <li><button>Giám sát công tác cắt tỉa</button></li>
+                            <li><button>Giám sát công tác chặt hạ</button></li>
+                            <li><button>Giám sát công tác di dời</button></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><i class="esri-icon-chart"></i> Thống Kê Báo Cáo<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li>
-                                <button>Thống kê theo tên cây xanh</button>
-                            </li>
-                            <li>
-                                <button>Thống kê theo tuyến đường</button>
-                            </li>
-                            <li>
-                                <button>Thống kê theo quận huyện</button>
-                            </li>
+                            <li><button>Thống kê theo tên cây xanh</button></li>
+                            <li><button>Thống kê theo tuyến đường</button></li>
+                            <li><button>Thống kê theo quận huyện</button></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="esri-icon-layer-list"></i> Quản lí người Dùng<span
-                                class="fa arrow"></span></a>
+                        <a href="#"><i class="esri-icon-layer-list"></i> Quản lí người Dùng<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li>
-                                <button data-toggle="modal" data-target="#myModal2" style="padding-left: 15px;"><i
-                                        class="fa fa-database"></i>Thêm Người Dùng
-                                </button>
-                            </li>
-                            <li>
-                                <button>Lập Lịch Theo Tháng</button>
-
-                            </li>
+                            <li><button>Thêm Người Dùng</button></li>
+                            <li><button>Thay đổi mật khẩu</button></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#" class="active"><i class="fa fa-user"></i> Quản Lí Người Dùng</a>
-                    </li>
-                </ul>
-
-                {# **************Tra Cứu Theo Quận Huyện#}
-                <ul class="nav nav-multilv nav-lv2">
-                    <li><a href=""><i class="esri-icon-left-arrow"></i></a></li>
-                    <div class="esri-widget" id="optionsDiv">
-                        <h5>Tra Cứu Theo Quận Huyện</h5>
-                        <select class="esri-widget" id="attSelect">
-                            {% for qh in select_QH %}
-                                <option value="{{ qh.0 }}">{{ qh.1 }}</option>
-                            {% endfor %}
-                        </select>
-                    </div>
                 </ul>
             </div>
         </div>
     </nav>
-</div>
-
-{#**********Danh Sách Tra Cứu********************#}
-<div class="form-popup" id="myform">
-    <div class="form-container">
-        <div class="popup-header">
-            <h4 class="popup-title">
-                Tra cứu theo phường xã
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <hr/>
-            </h4>
-        </div>
-        <div class="popup-body">
-            <div class="popup-body-search">
-                <input type="text" placeholder="Nhập Tên Quận Huyện..." id="myInput"
-                       class="dropbtn searchqh"/>
-                <button id="btn-search"><i class="esri-icon-search"></i></button>
-            </div>
-            <div id="myDropdown" class="dropdown-content">
-                <a>Nguyễn Văn Cừ</a>
-            </div>
-        </div>
-        <div class="popup-footer">
-            <ul class="listqh">
-                {% for qh in Selectqh %}
-                    <li class="item-qh" value="{{ qh.0 }}"> {{ qh.1 }} - Mã: {{ qh.0 }}</li>
-                {% endfor %}
-
-            </ul>
-        </div>
-    </div>
 </div>
 
 {#**********Model form thêm tên cx***************#}
@@ -245,7 +165,7 @@
 
     }
 
-    #btn-search{
+    #btn-search {
         border: 1px solid #ddd;
         position: absolute;
         height: 100%;
